@@ -1,0 +1,42 @@
+h1,
+h2,
+h3,
+p,
+a,
+ul,
+li,
+div {
+    font-family: Rubik Mono One;
+}
+
+.izquierda1>img {
+    margin-left: 9%;
+    margin-top: 0.5%;
+    height: 120px;
+    width: 200px;
+    ;
+}
+
+.navegacion {
+    float: right;
+    margin-top: 2%;
+    margin-right: 35%;
+    ;
+}
+
+.nav-item>a {
+    color: black;
+    font-size: 18px;
+    margin: 15px;
+    font-family: Rubik Mono One;
+}
+
+.pos-f-t {
+    float: right;
+    margin-right: 10%;
+    top: 3rem;
+    position: absolute;
+    right: 0;
+}
+
+.menubusqueda{background-color: black;z-index: 10px;position: absolute;margin: -999999px;}
