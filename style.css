@@ -12,9 +12,10 @@ div {
 .izquierda1>img {
     margin-left: 9%;
     margin-top: 0.5%;
-    height: 120px;
+    height: 90px;
     width: 200px;
-    ;
+    margin-top: 2rem;
+    
 }
 
 .navegacion {
