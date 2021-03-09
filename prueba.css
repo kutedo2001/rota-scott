@@ -1,11 +1,8 @@
 .menubusqueda {
     background-color: black;
-    color: white;
+    color: rgb(60, 255, 0);
     margin-right: 10000000000px;
+    position: absolute;
 }
+#cerrarmenu{color: brown;margin-right: 1000000px;position: absolute;}
 
-.menucerrar {
-    background-color: white;
-    color: black;
-    margin-right: 1000000000px;
-}
