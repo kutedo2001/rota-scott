@@ -6,42 +6,41 @@ a,
 ul,
 li,
 div {
-    font-family: Rubik Mono One;
+    font-family: 'Oswald', sans-serif;
 }
+
+.top{background-color: rgba(100, 148, 237, 0.527);}
 
 .izquierda1>img {
     margin-left: 9%;
     margin-top: 0.5%;
-    height: 90px;
+    height: 80px;
     width: 200px;
-    margin-top: 2rem;
+    margin-top: 2.5rem;
 
 }
 
-.navegacion {
+.navegacion1 {
     float: right;
-    margin-top: 2%;
-    margin-right: 35%;
-    ;
+    margin-top: 3rem;
+    margin-right: 11rem;
 }
 
 .nav-item>a {
     color: black;
-    font-size: 18px;
-    margin: 15px;
-    font-family: Rubik Mono One;
+    font-size: 23px;
+    margin-left: 15px;
+    font-family: 'Oswald', sans-serif;
 }
 
-.pos-f-t {
-    float: right;
-    margin-right: 10%;
-    top: 3rem;
-    position: absolute;
-    right: 0;
+#abrirbusqueda {margin-top: 0.4rem;
+    margin-left: 25rem;
 }
 
-.menubusqueda {
-    background-color: black;
-    z-index: 10px;
-    margin: -999999px;
+#abrircesta {margin-top: 0.4rem;
+    margin-left: 2rem;
+}
+
+#abrirusuario {margin-top: 0.4rem;
+    margin-left: 2rem;
 }
