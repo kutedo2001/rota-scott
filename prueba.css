@@ -136,6 +136,36 @@ ul.nav li a {
   text-decoration: initial;
 }
 
+ul.nav1 {
+  float: left;
+  list-style: none;
+  margin: 0;
+  text-align: center;
+}
+
+ul.nav1 li {
+  float: left;
+  position: relative;
+  margin-left: 5rem;
+}
+
+ul.nav1 li a {
+  transition: color 0.2s linear;
+  font-size: 18px;
+}
+
+ul.nav1 li:hover a {
+  color: #62B18B;
+}
+
+ul.nav1 li a {
+  color: initial;
+  text-decoration: initial;
+}
+
+ul.nav1 li img{margin-right: 0.5rem;}
+
+
 /*
   Slider
 */
