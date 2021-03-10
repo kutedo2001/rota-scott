@@ -314,6 +314,8 @@ h1.hero:after {
   background: #FFF;
 }
 
+.col.bg1{background-image: url(imagenes/patinetes/1.jpg);background-size: contain;background-repeat: no-repeat;background-position: center;}
+
 .col.pointer {
   cursor: pointer;
 }
