@@ -172,7 +172,13 @@ ul.nav1 li img {
   Slider
 */
 
-.section .slider,
+.section .slider {
+  background-image: url(imagenes/cursos.jpg);
+  background-size: 1200px 360px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
 .section .footer {
   background: #333;
 }
@@ -186,6 +192,9 @@ ul.nav1 li img {
   color: white;
   font-weight: normal;
   letter-spacing: 1px;
+  background-color: rgba(68, 68, 68, 0.44);
+  width: 600px;
+  margin-left: 300px;
 }
 
 h1.hero {
@@ -355,7 +364,6 @@ h1.hero:after {
   background-size: 240px;
   background-position: center;
   background-repeat: no-repeat;
-  transition: background 0.3s linear;
 }
 
 .col .imgholder2 {
@@ -365,7 +373,6 @@ h1.hero:after {
   background-size: contain;
   background-position: center;
   background-repeat: no-repeat;
-  transition: background 0.3s linear;
 }
 
 .col .imgholder3 {
@@ -375,7 +382,6 @@ h1.hero:after {
   background-size: contain;
   background-position: center;
   background-repeat: no-repeat;
-  transition: background 0.3s linear;
 }
 
 .col .imgholder4 {
@@ -385,7 +391,6 @@ h1.hero:after {
   background-size: contain;
   background-position: center;
   background-repeat: no-repeat;
-  transition: background 0.3s linear;
 }
 
 .col .imgholder5 {
@@ -395,7 +400,6 @@ h1.hero:after {
   background-size: contain;
   background-position: center;
   background-repeat: no-repeat;
-  transition: background 0.3s linear;
 }
 
 .col .imgholder6 {
@@ -405,7 +409,6 @@ h1.hero:after {
   background-size: contain;
   background-position: center;
   background-repeat: no-repeat;
-  transition: background 0.3s linear;
 }
 
 .col.bg {
