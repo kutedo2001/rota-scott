@@ -307,6 +307,10 @@ h1.hero:after {
   transition: background 0.25s linear, color 0.25s linear;
 }
 
+.col .icon img {
+  margin-top: 10px;
+}
+
 .col .icon.side {
   position: absolute;
   padding: 0;
@@ -344,10 +348,63 @@ h1.hero:after {
   margin-bottom: 20px;
 }
 
-.col .imgholder {
-  height: 300px;
+.col .imgholder1 {
+  height: 200px;
   width: 100%;
-  background: #333;
+  background-image: url(imagenes/patinetes/1.jpg);
+  background-size: 240px;
+  background-position: center;
+  background-repeat: no-repeat;
+  transition: background 0.3s linear;
+}
+
+.col .imgholder2 {
+  height: 200px;
+  width: 100%;
+  background-image: url(imagenes/patinetes/2.jpg);
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  transition: background 0.3s linear;
+}
+
+.col .imgholder3 {
+  height: 200px;
+  width: 100%;
+  background-image: url(imagenes/patinetes/3.jpg);
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  transition: background 0.3s linear;
+}
+
+.col .imgholder4 {
+  height: 200px;
+  width: 100%;
+  background-image: url(imagenes/patinetes/4.jpg);
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  transition: background 0.3s linear;
+}
+
+.col .imgholder5 {
+  height: 200px;
+  width: 100%;
+  background-image: url(imagenes/patinetes/5.jpeg);
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  transition: background 0.3s linear;
+}
+
+.col .imgholder6 {
+  height: 200px;
+  width: 100%;
+  background-image: url(imagenes/patinetes/6.png);
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
   transition: background 0.3s linear;
 }
 
@@ -366,8 +423,44 @@ h1.hero:after {
   cursor: pointer;
 }
 
-.col.bg:hover .imgholder {
-  background: #555;
+.col .imgholder1:hover {
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.col .imgholder2:hover {
+  background-size: 220px;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.col .imgholder3:hover {
+  background-size: 220px;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.col .imgholder4:hover {
+  background-size: 220px;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.col .imgholder5:hover {
+  background-size: 220px;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.col .imgholder6:hover {
+  background-size: 220px;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.col img {
+  cursor: pointer;
 }
 
 .col span.feature {
@@ -476,7 +569,9 @@ button img {
   color: black;
 }
 
-.form-square:checked{background-color: rgba(255, 255, 255, 0.357);}
+.form-square:checked {
+  background-color: rgba(255, 255, 255, 0.357);
+}
 
 label {
   position: relative;
@@ -532,7 +627,6 @@ label {
   }
 
   #logo {
-
     height: 50px;
     width: 50px;
   }
