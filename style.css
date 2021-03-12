@@ -113,7 +113,7 @@ ul.nav {
   float: left;
   list-style: none;
   margin: 0;
-  margin-left: 16.1rem;
+  margin-left: 24rem;
 }
 
 ul.nav li {
@@ -131,7 +131,7 @@ ul.nav li:hover a {
 }
 
 ul.nav li a {
-  padding: 21px;
+  padding: 20px;
   color: initial;
   text-decoration: initial;
 }
@@ -140,7 +140,6 @@ ul.nav1 {
   float: left;
   list-style: none;
   margin: 0;
-  text-align: center;
 }
 
 ul.nav1 li {
@@ -159,6 +158,32 @@ ul.nav1 li:hover a {
 }
 
 ul.nav1 li a {
+  color: initial;
+  text-decoration: initial;
+}
+
+ul.nav3 {
+  float: right;
+  list-style: none;
+  margin: 0;
+}
+
+ul.nav3 li {
+  float: left;
+  position: relative;
+  margin-left: 1rem;
+}
+
+ul.nav3 li a {
+  transition: color 0.2s linear;
+  font-size: 18px;
+}
+
+ul.nav3 li:hover a {
+  color: #62B18B;
+}
+
+ul.nav3 li a {
   color: initial;
   text-decoration: initial;
 }
@@ -572,9 +597,38 @@ button {
   border-bottom-left-radius: 0;
   background: #333;
   color: white;
+  cursor: pointer;
 }
 
 button img {
+  height: 0.7rem;
+  width: 0.9rem;
+  margin-top: 1px;
+}
+
+
+/*
+  search
+*/
+
+.container1 {
+  position: relative;
+  width: 1170px;
+  margin: 0 auto;
+  color: #444;
+  font-size: 14px;
+  font-weight: 300;
+  font-family: Roboto, 'Open Sans', Arial, sans-serif;
+  overflow: hidden;
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.container1 .buscar {
+  margin-top: 0.5rem;
+}
+
+button ion-icon {
   height: 0.7rem;
   width: 0.9rem;
   margin-top: 1px;
@@ -676,10 +730,6 @@ label {
     margin: 0 auto;
   }
 
-  ul.nav li {
-    float: initial;
-    display: inline-block;
-  }
 
   .responsivegroup {
     display: block;
