@@ -1,0 +1,70 @@
+body {
+    background-color: rgba(51, 51, 51, 0.85);
+}
+
+.pagina {
+    width: 360px;
+    padding: 8% 0 0;
+    margin: auto;
+    text-align: center;
+}
+
+.volver a {
+    text-decoration: none;
+    color: white;
+}
+
+a:hover {
+    color: #62B18B;
+}
+
+.principal {
+    z-index: 1;
+    background: #357986;
+    padding: 45px;
+    border: 1px solid black;
+    border-style: dashed;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+}
+
+.principal input {
+    outline: 0;
+    background: #f2f2f2;
+    width: 100%;
+    border: 1px solid black;
+    margin: 0 0 15px;
+    padding: 15px;
+    box-sizing: border-box;
+    font-size: 14px;
+}
+
+.principal button {
+    text-transform: uppercase;
+    outline: 0;
+    background: #54ac81;
+    width: 100%;
+    border: 1px solid black;
+    border-style: outset;
+    padding: 15px;
+    color: #FFFFFF;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.principal button:hover,
+.form button:active,
+.form button:focus {
+    background: #43A047;
+}
+
+.principal .message {
+    margin: 15px 0 0;
+    color: #b3b3b3;
+    font-size: 12px;
+}
+
+.principal a {
+    color: white;
+    text-decoration: none;
+}
+.principal a:hover{color:#52a77e}
