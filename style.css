@@ -700,6 +700,18 @@ label {
     width: 95%;
   }
 
+  .slider {width: 100%;
+    background-image: url(imagenes/cursos.jpg);
+    background-size: 2px 2px;
+    background-repeat: no-repeat;
+    background-position: center;
+    text-align: center;
+  }
+
+  .container1 {
+    width: 95%;
+  }
+
   .col.four {
     width: 48%;
     margin: 1%;
