@@ -700,7 +700,8 @@ label {
     width: 95%;
   }
 
-  .slider {width: 100%;
+  .slider {
+    width: 100%;
     background-image: url(imagenes/cursos.jpg);
     background-size: 2px 2px;
     background-repeat: no-repeat;
@@ -794,3 +795,47 @@ label {
     display: none;
   }
 }
+
+/*
+  Pop-up
+*/
+
+.extra-info {
+  display: none;
+  line-height: 30px;
+  font-size: 16px;
+  position: absolute;
+  top: 20px;
+  left: 60px;
+  text-align: center;
+  right: 10px;
+}
+
+.info:hover .extra-info {
+  display: block;
+}
+
+.info {
+  font-size: 20px;
+  padding-left: 8rem;
+  width: 20px;
+  border-radius: 15px;
+  position: absolute;
+}
+
+.info img {
+  height: 4rem;
+  width: 4rem;
+  margin-top: 10px;
+}
+
+.info:hover {
+  background-color: rgb(0, 0, 0);
+  padding: 0 0 0 5px;
+  width: 315px;
+  text-align: left !important;
+  margin-left: 10px;
+}
+.info a{text-decoration: none; color: white;}
+
+.info a:hover{text-decoration: underline;}
